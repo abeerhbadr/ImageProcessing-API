@@ -18,19 +18,19 @@ Some Description of the folders
 
 ```
 +---assets
-   ---images
-       ---full
+|   \---images
+|       \---full
 +---spec
-   ---support    
----src
-       index.ts
-    
+|   \---support    
+\---src
+    |   index.ts
+    |
     +---controllers    
     +---middleware
     +---routes
-       ---api
-               
-    +---tests         
+    |   \---api
+    |           
+    +---tests                
   ```
   
   ### API Endpoint
