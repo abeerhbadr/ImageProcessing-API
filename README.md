@@ -1,4 +1,4 @@
-# Udacity Image Processing API 
+# Image Processing API 
 
 ### npm-run Scripts
 
