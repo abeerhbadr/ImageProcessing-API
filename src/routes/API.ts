@@ -4,6 +4,6 @@ import paramsValidation from '../middlewares/paramsValidation.middleware';
 
 const router = express.Router();
 
-router.get('/images',imageResizing,paramsValidation);
+router.get('/images', imageResizing, paramsValidation);
 
 export default router;

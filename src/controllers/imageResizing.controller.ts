@@ -1,5 +1,5 @@
 import { NextFunction, Request, Response } from 'express';
-import sharp from 'sharp'
+import sharp from 'sharp';
 
 const imageResizing = (req: Request, res: Response, next: NextFunction) => {};
 
