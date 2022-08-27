@@ -1,0 +1,27 @@
+{
+  "name": "imageprocessing-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --config .prettierrc \"src/**/*.js\" --write",
+    "lint": "eslint \"src/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abeerhbadr/ImageProcessing-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abeerhbadr/ImageProcessing-API/issues"
+  },
+  "homepage": "https://github.com/abeerhbadr/ImageProcessing-API#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
