@@ -22,9 +22,11 @@
   },
   "homepage": "https://github.com/abeerhbadr/ImageProcessing-API#readme",
   "devDependencies": {
+    "@types/eslint": "^8.4.6",
     "@types/express": "^4.17.13",
     "@types/jasmine": "^4.3.0",
     "@types/sharp": "^0.30.5",
+    "@typescript-eslint/parser": "^5.35.1",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
