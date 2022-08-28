@@ -6,6 +6,7 @@ const port: number = 3000;
 
 app.get('/', (req: Request, res: Response, next: NextFunction) => {
   console.log('route root');
+  res.send('hii');
 });
 
 app.use('/api', imageRouter);
