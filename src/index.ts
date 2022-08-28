@@ -7,6 +7,8 @@ const port: number = 3000;
 app.get('/', (req: Request, res: Response, next: NextFunction) => {
   console.log('route root');
   res.send('hii');
+
+  next();
 });
 
 app.use('/api', imageRouter);
@@ -14,3 +16,5 @@ app.use('/api', imageRouter);
 app.listen(port, () => {
   console.log(`Server is Listening on Port ${port}`);
 });
+
+export default app;

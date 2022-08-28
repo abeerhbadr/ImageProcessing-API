@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "npm run build && npm run jasmine",
     "prettier": "prettier --config .prettierrc \"src/**/*.ts\" --write",
     "lint": "eslint \"src/**/*.ts\"",
     "build": "npx tsc",
@@ -26,6 +26,7 @@
     "@types/express": "^4.17.13",
     "@types/jasmine": "^4.3.0",
     "@types/sharp": "^0.30.5",
+    "@types/supertest": "^2.0.12",
     "@typescript-eslint/parser": "^5.35.1",
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
@@ -38,6 +39,7 @@
     "express": "^4.18.1",
     "jasmine": "^4.3.0",
     "jasmine-spec-reporter": "^7.0.0",
-    "sharp": "^0.30.7"
+    "sharp": "^0.30.7",
+    "supertest": "^6.2.4"
   }
 }

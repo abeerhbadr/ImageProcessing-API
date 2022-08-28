@@ -32,10 +32,10 @@ const resizeImage = async (req: Request, res: Response) => {
       .catch((error) => {
         console.log('error');
       });
-    return res.sendFile(outputPath);
+    return res.status(200).sendFile(outputPath);
   } catch (error) {
     console.log(error);
-    return res.send("can't process image");
+    return res.status(404).send("can't process image");
   }
 };
 
