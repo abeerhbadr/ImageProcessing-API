@@ -9,15 +9,16 @@ const paramsValidation = (req: Request, res: Response, next: NextFunction) => {
     return;
   }
 
-  const isWNum = parseInt(width as string, 10);
-  const isHNum = parseInt(height as string, 10);
+  // const isWNum = parseInt(width as string, 10);
+  // const isHNum = parseInt(height as string, 10);
+  // console.log(isHNum)
 
-  if (!isWNum) {
+  if (!Number(width)) {
     res.send('Not Valid Width');
     return;
   }
 
-  if (!isHNum) {
+  if (!Number(height)) {
     res.send('Not Valid Height');
     return;
   }
