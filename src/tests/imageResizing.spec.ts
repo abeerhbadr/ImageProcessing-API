@@ -3,8 +3,12 @@ import sharpResize from '../controllers/sharpResize';
 
 describe('Image transform function should resolve or reject', () => {
   it('Expect resizeImage function to not throw error', () => {
-    sharpResize('../../assets/images/full/fjord',
-    200,300,'../../assets/images/full/thumb-fjord-200x300').then((ret)=>{
+    sharpResize(
+      '../../assets/images/full/fjord',
+      200,
+      300,
+      '../../assets/images/full/thumb-fjord-200x300'
+    ).then((ret) => {
       expect(ret).toEqual('../../assets/images/full/thumb-fjord-200x300');
     });
   });
